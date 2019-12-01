@@ -7,7 +7,7 @@ class Matrix(object):
     def row(self, index):
         return self.mat[index-1][:]
         
-
+    # Two types for getting the column as per the given index
     '''def column(self, index):
         mat_trans = [[self.mat[j][i] for j in range(len(self.mat))] for i in range(len(self.mat[0]))]
         return mat_trans[index-1][:]
